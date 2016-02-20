@@ -15,13 +15,13 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="false"
         android:layout_alignParentStart="false">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/icontwitterredcircle300x300" />
@@ -29,23 +29,28 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/edtUsuario"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lbl_usuario"
+            android:hint="Usuário" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText2"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/edtSenha"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lbl_senha"
+            android:hint="Senha" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
-            android:layout_gravity="center_horizontal" />
+            android:text="@string/lbl_login"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="loginOuSignup"/>
 
     </LinearLayout>
 </RelativeLayout>

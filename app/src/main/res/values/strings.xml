@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TTWITTER3</string>
     <string name="action_settings">Settings</string>
+    <string name="lbl_usuario" />
+    <string name="lbl_senha" />
+    <string name="lbl_login">LOGIN</string>
+    <string name="title_activity_lista_usuario">Lista Usuario</string>
 </resources>
