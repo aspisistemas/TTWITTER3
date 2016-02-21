@@ -12,4 +12,7 @@ public class ParseUser {
     public void signUpInbackground(SignUpCallback appInfo) {
 
     }
+
+    public static void logInInBackground(String s, String s1, LogInCallback logInCallback) {
+    }
 }

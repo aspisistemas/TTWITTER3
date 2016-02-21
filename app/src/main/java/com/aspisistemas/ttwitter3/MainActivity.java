@@ -17,13 +17,15 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.parse.LogInCallback;
-import com.parse.ParseACL;
-import com.parse.ParseAnalytics;
-import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseUser;
-import com.parse.SignUpCallback;
+
+
+//import com.parse.LogInCallback;
+//import com.parse.ParseACL;
+//import com.parse.ParseAnalytics;
+//import com.parse.ParseException;
+//import com.parse.ParseObject;
+//import com.parse.ParseUser;
+//import com.parse.SignUpCallback;
 
 
 import java.text.ParseException;
@@ -78,8 +80,8 @@ public class MainActivity extends AppCompatActivity
                 } else {
 
                     ParseUser newUser = new ParseUser();
-                    newUser.setUsername(String.valueOf(usuario.getText()));
-                    newUser.setPassword(String.valueOf(senha.getText()));
+                    //newUser.setUsername(String.valueOf(usuario.getText()));
+                    //newUser.setPassword(String.valueOf(senha.getText()));
 
                     newUser.signUpInbackground(new SignUpCallback() {
                         public void done(ParseException e) {
